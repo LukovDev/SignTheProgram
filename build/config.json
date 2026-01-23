@@ -1,0 +1,18 @@
+{
+    "organization":      "Your Organization",
+    "organization-unit": "Development Unit",
+    "common-name":       "OrgNameOrProgramName",
+    "password":          "",
+    "days":              365,
+    "newkey":            "rsa:4096",
+    "country":           "RU",
+    "state-or-region":   "Moscow",
+    "locality":          "Moscow",
+    "email-address":     "",
+    "openssl-config":    "build/tools/openssl.cnf",
+    "target-program":    "game.exe",
+    "fd":                "SHA256",
+    "flags": [
+        "-x509", "-sha256", "-nodes"
+    ]
+}
