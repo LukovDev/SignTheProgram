@@ -10,7 +10,7 @@
     "locality":          "Moscow",
     "email-address":     "",
     "openssl-config":    "build/tools/openssl.cnf",
-    "target-program":    "game.exe",
+    "target-program":    "app.exe",
     "fd":                "SHA256",
     "flags": [
         "-x509", "-sha256", "-nodes"
